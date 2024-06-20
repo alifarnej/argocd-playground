@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: default
+  project: default2
   source:
     repoURL: https://github.com/alifarnej/argocd-playground.git
     targetRevision: HEAD
